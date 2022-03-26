@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "iPad Pro 11",
+    "price": "$1000",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-11-2021.jpg"
+  },
+  {
+    "id": "2",
+    "name": "iPhone 12 Pro Max",
+    "price": "$1138",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"
+  },
+  {
+    "id": "3",
+    "name": "iPad Pro 12.9",
+    "price": "$1300",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-129-2021.jpg"
+  },
+  {
+    "id": "4",
+    "name": "iPhone 12 Pro",
+    "price": "$1230",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg"
+  },
+  {
+    "id": "5",
+    "name": "iPhone 12",
+    "price": "$1001",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+  },
+  {
+    "id": "6",
+    "name": "iPhone 12 mini",
+    "price": "$1,666.92",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+  },
+  {
+    "id": "7",
+    "name": "iPad Air (2020)",
+    "price": "$1,379.40",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air4-2020.jpg"
+  },
+  {
+    "id": "8",
+    "name": "iPad 10.2 (2020)",
+    "price": "$1228",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad8-102-inches-2020.jpg"
+  },
+  {
+    "id": "9",
+    "name": "iPad 10.2 (2021)",
+    "price": "$1493",
+    "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-102-2021-.jpg"
+  }
+]

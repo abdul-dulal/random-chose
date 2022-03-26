@@ -1,0 +1,27 @@
+.added-cart {
+  display: flex;
+}
+.added-cart img {
+  height: 109px;
+  /* background: #fff; */
+  width: 106px;
+  padding: 26px;
+  /* border-radius: 71%; */
+}
+.added-cart p {
+  align-self: center;
+  font-size: 20px;
+}
+.icon-delete {
+  margin-top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  align-self: auto;
+}
+.chose-one {
+  align-items: center;
+  background-color: darkgray;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+}
