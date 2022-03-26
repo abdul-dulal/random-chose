@@ -3,7 +3,6 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const Product = ({ product, handleAddToCart }) => {
   const { name, img, price, id } = product;
-
   return (
     <div className="product">
       <img src={img} alt="" />

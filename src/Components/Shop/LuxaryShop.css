@@ -13,3 +13,14 @@ body {
 .cart-container {
   background: #e5e5e5;
 }
+
+@media screen and (max-width: 768px) {
+  .shop-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
