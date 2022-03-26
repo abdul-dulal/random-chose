@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
 }
-.header {
+.bg {
   background-color: #1c2b35;
+}
+.header {
   height: 80px;
   display: flex;
+  padding: 0px;
   align-items: center;
-
-  padding: 0px 140px;
 }
 .header h3 a {
   color: #ffff;
@@ -37,6 +38,7 @@
     width: 100%;
   }
   .header a h3 {
+    margin-left: 36px;
     font-size: 20px;
   }
   .header a {
