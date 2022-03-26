@@ -11,37 +11,12 @@
   padding: 0px;
   align-items: center;
 }
+.header h3 {
+  text-align: center;
+}
 .header h3 a {
+  text-decoration: none;
   color: #ffff;
   font-size: 30px;
-}
-.header a {
-  color: #ffff;
-  font-size: 17px;
-  margin-left: 36px;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 425px) {
-  .header {
-    width: 100%;
-  }
-  .header a h3 {
-    font-size: 20px;
-  }
-  .header a {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header {
-    width: 100%;
-  }
-  .header a h3 {
-    margin-left: 36px;
-    font-size: 20px;
-  }
-  .header a {
-    font-size: 10px;
-  }
+  text-align: center;
 }
