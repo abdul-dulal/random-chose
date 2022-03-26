@@ -26,17 +26,20 @@ const AddedCart = ({ cart }) => {
 
         <div>
           {" "}
-          <button className="chose-one mb-3 " onClick={() => handleClick(cart)}>
+          <button
+            className="chose-one mb-3 me-3"
+            onClick={() => handleClick(cart)}
+          >
             Chose One For Me
           </button>
         </div>
-        <button className="chose-one mb-4" onClick={() => handleClose(cart)}>
+        <button className="close mb-4 me-3" onClick={() => handleClose(cart)}>
           {" "}
           Chose Again
         </button>
       </div>
       {newCart && (
-        <div className="product">
+        <div className="product mt-4">
           <img src={newCart.img} alt="" />
           <div className="product-des">
             <h3>{newCart.name}</h3>

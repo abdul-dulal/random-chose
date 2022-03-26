@@ -1,3 +1,7 @@
+.added {
+  box-shadow: 0px 12px 30px rgb(0 0 0 / 21%);
+}
+
 .added-cart {
   display: flex;
 }
@@ -12,18 +16,22 @@
   align-self: center;
   font-size: 20px;
 }
-.icon-delete {
-  margin-top: 20px;
-  font-size: 25px;
-  cursor: pointer;
-  align-self: auto;
-}
+
 .chose-one {
   align-items: center;
   background-color: darkgray;
   padding: 15px 15px;
   border: none;
   border-radius: 5px;
+  margin-left: 26px;
+}
+.close {
+  background-color: darkgray;
+  /* padding: 15px 15px; */
+  border: none;
+  border-radius: 5px;
+  margin-left: 26px;
+  padding: 14px 38px;
 }
 
 @media screen and (max-width: 768px) {
