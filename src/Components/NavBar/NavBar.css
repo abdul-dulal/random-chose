@@ -7,7 +7,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   padding: 0px 140px;
 }
 .header h3 a {
@@ -19,4 +19,27 @@
   font-size: 17px;
   margin-left: 36px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: 100%;
+  }
+  .header a h3 {
+    font-size: 20px;
+  }
+  .header a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .header a h3 {
+    font-size: 20px;
+  }
+  .header a {
+    font-size: 10px;
+  }
 }

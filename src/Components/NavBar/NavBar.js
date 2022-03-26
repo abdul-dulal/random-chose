@@ -3,9 +3,9 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="">
       <div>
-        <nav className="header">
+        <nav className="header ">
           <h3>
             <a href=""> Luxary Shop</a>
           </h3>

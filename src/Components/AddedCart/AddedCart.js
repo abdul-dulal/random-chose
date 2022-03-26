@@ -3,45 +3,44 @@ import "./AddedCart.css";
 import { MdDelete } from "react-icons/md";
 
 const AddedCart = ({ cart }) => {
-  const [newCart, setNewcart] = useState([...cart]);
-  useEffect(() => {}, []);
   // console.log(cart);
-  let randomNumber;
-  const [productCount] = useState([]);
+
+  const [newCart, setNewCart] = useState("");
   const handleClick = (cart) => {
-    setNewcart(cart);
-    let result = cart.map((product) => Number(product.id));
-    randomNumber = Math.ceil(Math.random() * cart.length);
-    // console.log(randomNumber);
-
-    console.log(cart[randomNumber]);
-
-    for (const id of result) {
-      if (id === randomNumber) {
-        // console.log(result);
-      }
-    }
+    const randomNumber = Math.ceil(Math.random() * cart.length) - 1;
+    setNewCart(cart[randomNumber]);
   };
 
-  // console.log(cart[randomNumber]);
   return (
-    <div className="added">
-      {cart.map((item) => (
-        <div key={item.id} className="added-cart">
-          <img src={item.img} alt="" />
-          <p>name {item.name}</p>
-          <span className="icon-delete">
-            <MdDelete />
-          </span>
+    <>
+      <div className="added">
+        {cart.map((item) => (
+          <div key={item.id} className="added-cart">
+            <img src={item.img} alt="" />
+            <p>name {item.name}</p>
+            <span className="icon-delete">
+              <MdDelete />
+            </span>
+          </div>
+        ))}
+
+        <button className="chose-one " onClick={() => handleClick(cart)}>
+          Chose One For Me
+        </button>
+
+        {/* <button className="chose-one"> Chose Again</button> */}
+      </div>
+      {newCart && (
+        <div className="product">
+          <img src={newCart.img} alt="" />
+          <div className="product-des">
+            <h3>{newCart.name}</h3>
+            <p>Pirce : {newCart.price}</p>
+            <p> Id : {newCart.id}</p>
+          </div>
         </div>
-      ))}
-
-      <button className="chose-one " onClick={() => handleClick(newCart)}>
-        Chose One For Me
-      </button>
-
-      {/* <button className="chose-one"> Chose Again</button> */}
-    </div>
+      )}
+    </>
   );
 };
 
